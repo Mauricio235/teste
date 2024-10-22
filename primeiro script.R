@@ -1,6 +1,4 @@
 
-library(survival)
-library(readxl)
 
 dados <- read_excel("C:/Users/LENOVO/Desktop/Projeto monica respiração/DRIVING PRESSURE 13SET24.xlsx", 
                     sheet = "Planilha1")
@@ -62,12 +60,7 @@ plot(dados)
 vif(modelo_cox)
 
 
-################################################################################################
 
-
-library(readr)
-library(dplyr)
-library(flexsurv)
 
 
 # 1-Modelo Exponencial
